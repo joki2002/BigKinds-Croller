@@ -1,9 +1,9 @@
 # BigKinds Croller
 ## Description
-빅카인즈(https://www.bigkinds.or.kr/)사이트에서 특정 키워드가 포함된 뉴스를 크롤링하는 프로그램
+빅카인즈(https://www.bigkinds.or.kr) 사이트에서 특정 키워드가 포함된 뉴스를 크롤링하는 프로그램
 
 ## Environment
-* Python 3.11.5
+* Python **3.11.5**
 ### Use Library Version
 * Selenium: **4.11.2**
 * chromedriver-autoinstaller: **0.6.3**
@@ -13,9 +13,9 @@
 
 ## Usage
 ### How To Run
-'''bash
+```bash
 pyinstaller -w -f --add-data "icon.ico" main_form.py
-'''
+```
 
 ### GUI Flow
 1. 검색어 입력 우측의 텍스트 박스에 필터링할 검색어를 입력한다.
